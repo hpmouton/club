@@ -10,7 +10,7 @@ import AllowNotifications from './pages/allowNotifications';
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 //Layouts
 import AppLayout from './pages/layouts/appLayout';
-import Home from './pages/home';
+import Home from './pages/Home';
 
 //planned layout
 
@@ -32,13 +32,14 @@ function App() {
      </Switch>
      
   </PlanLayout>
+  
+  </Route>
   <Route exact path={['/home']}>
     <AppLayout>
       <Switch>
         <Route exact path='/home' component= {() => <Home />}/>
       </Switch>
     </AppLayout>
-  </Route>
   </Route>
   </BrowserRouter>
  
