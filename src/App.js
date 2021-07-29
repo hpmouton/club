@@ -19,7 +19,7 @@ function App() {
   return (
   <BrowserRouter>
   <Route exact path={[
-    '/', '/invite','get_username','code_confirm','/allow_notification',
+    '/', '/invite','/get_username','/code_confirm','/allow_notification',
   ]}
   >
    <PlanLayout>
