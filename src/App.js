@@ -1,5 +1,5 @@
 //Styles
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
 //Pages
 import Welcome from "./pages/welcome";

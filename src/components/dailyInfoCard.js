@@ -2,8 +2,20 @@ import React from 'react';
 import style from "../style/dailyCard.module.css";
 import data from "../data/dailyCard.json";
 
-export default function dailyInfoCard(){
+export default function DailyInfoCard(){
     return(
-        <h2>I am the daily card</h2>
-    );
+        <div className={style.dailyCard}>
+            {data.map((item) => (
+            <div>
+                 <span className="">{item.time}</span>
+                 <div>
+                     <span>{item.title}</span>
+                     <p>{item.description}</p>
+                 </div>
+            </div>
+            )
+               
+            )}
+        </div>
+        );
 }

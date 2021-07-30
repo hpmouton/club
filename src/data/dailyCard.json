@@ -1,3 +1,12 @@
-[{
-    "time": "7:0"
-}]
+[
+{
+    "time": "7:00 PM",
+    "title": "HPC",
+    "description": "High Performance Computing"
+},
+{
+    "time": "5:00 PM",
+    "title": "Ethical Hacking",
+    "description": "Beginners Guide to ethical Hacking "
+}
+]
